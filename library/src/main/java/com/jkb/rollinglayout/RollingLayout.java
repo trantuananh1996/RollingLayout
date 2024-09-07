@@ -2,15 +2,16 @@ package com.jkb.rollinglayout;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.support.annotation.AnimRes;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.BaseAdapter;
 import android.widget.ViewFlipper;
+
+import androidx.annotation.AnimRes;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 /**
  * A view that can rolling automatic within child views list.
