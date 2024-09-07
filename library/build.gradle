@@ -4,7 +4,10 @@ apply plugin: 'com.android.library'
 android {
 
     compileSdk 34
-
+    namespace "com.jkb.rollinglayout"
+    buildFeatures {
+        buildConfig true
+    }
 
     defaultConfig {
         minSdkVersion 21
